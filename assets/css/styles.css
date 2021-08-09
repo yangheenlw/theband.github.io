@@ -238,6 +238,8 @@ html {
         padding-top: 50%;
         /* 50% chiều ngang của chính nó */
         /* background-image background-position (top center) background-size background-repeat */
+        /* Đường dẫn tương đối */
+        /* ./assets/img là tuyệt đối, 1 chấm là cùng cấp, 2 chấm là nhảy ra 1 cấp từ file style.css */
         background: url('../img/slider/slider1.jpg') top center / cover no-repeat;
         position: relative;
    }
@@ -268,6 +270,8 @@ html {
      font-size: 15px;
      font-weight: 700;
      margin-top: 25px;
+     /* Bóng chữ */
+     text-shadow: 0 0 1px #000;
    }
 
    #content .content-section {
